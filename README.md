@@ -35,6 +35,8 @@ class AutoDetectBlade extends Component
 2. Modify the following file `app/Providers/AppServiceProvider.php`:
 
 ```php
+use Illuminate\Support\Facades\Blade;
+
 /**
  * Bootstrap any application services.
  */
