@@ -60,7 +60,7 @@ protected function autoDetectBlade()
 
 ```
 
-## Example
+## Template Examples
 
 1. Button example: `resources/views/components/button.blade.php`:
 
