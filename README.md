@@ -1,6 +1,6 @@
 # blade-templates-autodetect
 
-## Tutorial
+## Setup Guide
 
 1. Create the following file `app/View/AutoDetectBlade.php`:
 
