@@ -55,6 +55,7 @@ protected function autoDetectBlade()
     foreach (array_diff(scandir(base_path() . '/resources/views/components'), ['.', '..']) as $full_name) {
         $component_name = explode('.', $full_name)[0];
         if (! in_array($component_name, $initialized)) {
+             $initialized[] = $component_name;
              Blade::component($component_name, 'App\View\AutoDetectBlade');
         }
     }
